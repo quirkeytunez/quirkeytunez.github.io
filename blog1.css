@@ -1,0 +1,103 @@
+/* General Styles for Blog Page */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto; /* Ensure vertical scrolling works */
+}
+
+h1.tm-page-title {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 20px; /* Ensures it doesn't overlap with anything */
+}
+
+p {
+    font-size: 1.2rem;
+    color: #d3d3d3;
+    margin-bottom: 20px;
+}
+
+/* List Styling */
+ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul li {
+    font-size: 1.2rem;
+    color: #d3d3d3;
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #0e7fb9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #006599;
+    text-decoration: underline;
+}
+
+/* Button Styles */
+.btn-primary {
+    display: inline-block;
+    background-color:#0e7fb9;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: grey;
+    color: #fff;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px 20px; /* Adjusted top padding */
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer or Back Button */
+.btn-primary.mt-4 {
+    display: block;
+    margin: 30px auto;
+    width: 200px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1.tm-page-title {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    ul li {
+        font-size: 1rem;
+    }
+
+    .btn-primary {
+        padding: 8px 16px;
+    }
+}
+
